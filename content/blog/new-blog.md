@@ -1,7 +1,11 @@
 ---
-path: /landing1
-date: 2020-02-04T23:10:29.202Z
-title: New Blog
+heroImage: assets/header-desktop.jpeg
+howToPlay: assets/postcode-is-ticket.svg
 description: New Blog Description
+bottomHero: assets/street-bg.jpeg
+testimonialImage: assets/testimonial-video-button-1.png
+testimonialText: TESTIMONIAL TEXT
+charities: assets/pdsa.jpeg
+title: Landing 1
 ---
-Something something something
+
