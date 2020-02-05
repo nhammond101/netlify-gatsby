@@ -4,7 +4,7 @@ module.exports = {
     title: `Landing Pages`,
     author: `Sir Nick of Hammond`,
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://master.d1tcssgii1i7uf.amplifyapp.com/`,
     social: {
       twitter: `thehapppenguin`,
     },
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content/landing`,
+        name: `landing`,
       },
     },
     {
@@ -70,8 +70,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `CMS Workshop`,
+        short_name: `CMS`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

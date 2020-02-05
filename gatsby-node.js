@@ -4,10 +4,10 @@ const { createFilePath } = require(`gatsby-source-filesystem`);
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  const blogPost = path.resolve(`./src/templates/landing-page.js`);
+  const landingPage = path.resolve(`./src/templates/landing-page.js`);
   return graphql(
     `
-      query AllBlogs {
+      query AllLandingPages {
         allMdx(limit: 1000) {
         edges {
           node {
@@ -36,20 +36,20 @@ exports.createPages = ({ graphql, actions }) => {
 
     console.log(JSON.stringify(result, null, 2));
 
-    // Create blog posts pages.
+    // Create landing posts pages.
     const posts = result.data.allMdx.edges;
 
-    posts.forEach((post, index) => {
+    posts.forEach((page, index) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node;
       const next = index === 0 ? null : posts[index - 1].node;
-      console.log(`post: ${JSON.stringify(post, null,2)}`);
+      console.log(`post: ${JSON.stringify(page, null,2)}`);
       createPage({
-        path: `blog${post.node.fields.slug}`,
-        component: blogPost,
+        path: `landing${page.node.fields.slug}`,
+        component: landingPage,
         context: {
-          slug: post.node.fields.slug,
-          title: post.node.fields.title,
-          data: post.node.frontmatter,
+          slug: page.node.fields.slug,
+          title: page.node.fields.title,
+          data: page.node.frontmatter,
           previous,
           next,
         },

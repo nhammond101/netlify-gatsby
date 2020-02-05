@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d58d3afe-2f9a-445b-8d4c-25a6b15f23cc" name="Default Changelist" comment="" />
+    <list default="true" id="d58d3afe-2f9a-445b-8d4c-25a6b15f23cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/landing-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/landing/landing-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/landing-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/landing/landing-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/landing-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/landing-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +53,17 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.develop">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="develop" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -56,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.develop" />
       </list>
     </recent_temporary>
@@ -84,21 +105,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="301" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580938964052" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1580857044564">
+    <state width="1398" height="306" key="GridCell.Tab.0.bottom" timestamp="1580943279198">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580857044564" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1580857044562">
+    <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580943279198" />
+    <state width="1398" height="306" key="GridCell.Tab.0.center" timestamp="1580943279197">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580857044562" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1580857044560">
+    <state width="1398" height="306" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580943279197" />
+    <state width="1398" height="306" key="GridCell.Tab.0.left" timestamp="1580943279197">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580857044560" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1580857044562">
+    <state width="1398" height="306" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580943279197" />
+    <state width="1398" height="306" key="GridCell.Tab.0.right" timestamp="1580943279198">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580857044562" />
+    <state width="1398" height="306" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580943279198" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1580941744580">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580941744580" />
   </component>
 </project>

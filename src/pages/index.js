@@ -12,7 +12,7 @@ export default ({ data }) => {
       {data.allMdx.edges.map(({ node }) => (
         <div key={node.id}>
           <Link
-            to={'blog/'+node.fields.slug}
+            to={'landing/'+node.fields.slug}
             css={css`
                 text-decoration: none;
                 color: inherit;
@@ -31,7 +31,7 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query AllBlogs {
+  query AllLandingPages {
   allMdx(limit: 1000) {
     edges {
       node {

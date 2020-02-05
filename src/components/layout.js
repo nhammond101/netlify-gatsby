@@ -8,7 +8,7 @@ class Layout extends React.Component {
   render() {
     const { children } = this.props
     // const rootPath = `${__PATH_PREFIX__}/`
-    // const blogPath = `${__PATH_PREFIX__}/blog/`
+    // const blogPath = `${__PATH_PREFIX__}/landing/`
     // let header
     //
     // if (location.pathname === rootPath || location.pathname === blogPath) {
@@ -26,7 +26,7 @@ class Layout extends React.Component {
     //           textDecoration: `none`,
     //           color: `inherit`,
     //         }}
-    //         to={location.pathname === blogPath ? `/blog/` : `/`}
+    //         to={location.pathname === blogPath ? `/landing/` : `/`}
     //       >
     //         {title}
     //       </Link>
@@ -46,7 +46,7 @@ class Layout extends React.Component {
     //           textDecoration: `none`,
     //           color: `inherit`,
     //         }}
-    //         to={`/blog/`}
+    //         to={`/landing/`}
     //       >
     //         {title}
     //       </Link>

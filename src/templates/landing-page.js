@@ -13,7 +13,7 @@ export default ({ data }) => {
   console.log(data);
   const page = data.mdx.frontmatter;
   return (
-    <Layout location={'blog/' + data.mdx.fields.slug} title={page.title}>
+    <Layout location={'landing/' + data.mdx.fields.slug} title={page.title}>
       <section className='hero'>
         <img src={'/' + page?.heroImage || 'url'} alt='Hero Image'/>
       </section>
@@ -56,7 +56,7 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query BlogPostBySlug($slug: String! = "/landing-1/") {
+  query LandingPostBySlug($slug: String! = "/landing-1/") {
   site {
     siteMetadata {
       title

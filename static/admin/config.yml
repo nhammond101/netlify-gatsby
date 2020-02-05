@@ -9,12 +9,12 @@ media_folder: static/assets
 public_folder: assets
 
 collections:
-  - name: blog
-    label: Blog
-    folder: content/blog
+  - name: landing
+    label: Landing
+    folder: content/landing
     create: true
     fields:
-      - { name: title, label: "Title", widget: text }
+      - { name: title, label: "Title" }
       - { name: heroImage, label: "Hero Image", widget: image }
       - { name: howToPlay, label: "How To Play", widget: image }
       - { name: description, label: "Description", widget: text }
