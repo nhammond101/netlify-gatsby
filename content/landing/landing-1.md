@@ -1,7 +1,8 @@
 ---
+title: Landing 1
 heroImage: assets/header-desktop.jpeg
 howToPlay: assets/postcode-is-ticket.svg
-description: Description
+description: Landing 1 Description
 bottomHero: assets/street-bg.jpeg
 testimonialImage: assets/testimonial-video-button-1.png
 testimonialText: |-
@@ -12,6 +13,5 @@ testimonialText: |-
 
     Karen won £30,000 in our Street Prize
 charities: assets/pdsa.jpeg
-title: Landing 1
 ---
 
