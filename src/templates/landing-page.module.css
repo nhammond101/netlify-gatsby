@@ -1,0 +1,55 @@
+.hero {
+    margin-bottom: -0.5rem;
+}
+
+.hero img {
+    margin-bottom: 0;
+}
+
+.testimonial {
+    background: white;
+    display: flex;
+}
+
+.testimonial div {
+    flex: 1;
+    padding: 1rem;
+}
+
+.testimonial img {
+    width: 200px;
+    height: auto;
+}
+
+.testimonial-image {
+    width: 250px;
+}
+
+.testimonial-text {
+}
+
+.how-to-play {
+    background: #eeeeee;
+    display: flex;
+}
+
+.how-to-play div {
+    flex: 1;
+    padding: 1rem;
+}
+
+.how-to-play img {
+    width: auto;
+    height: auto;
+}
+
+
+.bottom-hero img {
+    width: auto;
+    height: auto;
+    margin: 0 0 -7px;
+}
+
+.bottom-hero {
+    border-bottom: red solid 5px;
+}

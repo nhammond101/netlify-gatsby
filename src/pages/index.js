@@ -1,39 +1,55 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { css } from "@emotion/core";
+import { Link, graphql } from "gatsby";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Button from "../components/button"
+import Layout from "../components/layout";
 
-class IndexPage extends React.Component {
-  render() {
-    const siteTitle = "Gatsby Starter Personal Website"
+export default ({ data }) => {
+  const siteTitle = "Gatsby Starter Personal Website";
 
-    return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO
-          title="Home"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
-        />
-        <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
-        <h1>
-          Hey people{" "}
-          <span role="img" aria-label="wave emoji">
-            👋
-          </span>
-        </h1>
-        <p>Welcome to your new Gatsby website. You are on your home page.</p>
-        <p>
-          This starter comes out of the box with styled components and Gatsby's
-          default starter blog running on Netlify CMS.
-        </p>
-        <p>Now go build something great!</p>
-        <Link to="/blog/">
-          <Button marginTop="35px">Go to Blog</Button>
-        </Link>
-      </Layout>
-    )
-  }
+  return (
+    <Layout location={'/'} title={siteTitle}>
+      {data.allMdx.edges.map(({ node }) => (
+        <div key={node.id}>
+          <Link
+            to={'blog/'+node.fields.slug}
+            css={css`
+                text-decoration: none;
+                color: inherit;
+              `}
+          >
+            <h3>
+              {node.frontmatter.title}
+            </h3>
+            <img src={node.frontmatter.heroImage} alt={'Hero'} width={'100px'}/>
+          </Link>
+        </div>
+      ))}
+    </Layout>
+  );
+
 }
 
-export default IndexPage
+export const query = graphql`
+  query AllBlogs {
+  allMdx(limit: 1000) {
+    edges {
+      node {
+        frontmatter {
+          title
+          description
+          bottomHero
+          charities
+          heroImage
+          howToPlay
+          testimonialImage
+          testimonialText
+        }
+        fields {
+          slug
+        }
+      }
+    }
+  }
+}
+`;

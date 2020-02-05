@@ -2,6 +2,9 @@ backend:
   name: github
   repo: nhammond101/netlify-gatsby
 
+# This line should *not* be indented
+publish_mode: editorial_workflow
+
 media_folder: static/assets
 public_folder: assets
 
@@ -10,9 +13,32 @@ collections:
     label: Blog
     folder: content/blog
     create: true
+#    fields:
+#      - { name: path, label: Path }
+#      - { name: date, label: Date, widget: date }
+#      - { name: title, label: Title }
+#      - { name: description, label: Description }
+#      - { name: body, label: Body, widget: markdown }
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
-      - { name: title, label: Title }
-      - { name: description, label: Description }
-      - { name: body, label: Body, widget: markdown }
+      - { name: heroImage, label: "Hero Image", widget: image }
+      - { name: howToPlay, label: "How To Play", widget: image }
+      - { name: description, label: "Description", widget: text }
+      - { name: bottomHero, label: "Bottom Hero", widget: image }
+      - { name: testimonialImage, label: "Testimonial Image", widget: image }
+      - { name: testimonialText, label: "Testimonial Text", widget: text }
+      - { name: charities, label: "Charities", widget: image }
+      - { name: title, label: "Title", widget: text }
+
+#  - name: landing-pages
+#    label: Landing Pages
+#    folder: content/landing-page
+#    create: true
+#    fields:
+#      - { name: heroImage, label: "Hero Image", widget: image }
+#      - { name: howToPlay, label: "How To Play", widget: image }
+#      - { name: description, label: "Description", widget: text }
+#      - { name: bottomHero, label: "Bottom Hero", widget: image }
+#      - { name: testimonialImage, label: "Testimonial Image", widget: image }
+#      - { name: testimonialText, label: "Testimonial Text", widget: text }
+#      - { name: charities, label: "Charities", widget: image }
+#      - { name: title, label: "Title", widget: text }

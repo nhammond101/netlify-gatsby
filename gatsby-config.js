@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Kyle Matthews`,
+    title: `Landing Pages`,
+    author: `Sir Nick of Hammond`,
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `thehapppenguin`,
     },
   },
   plugins: [
@@ -86,5 +86,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    // `gatsby-plugin-netlify`,
   ],
 }
