@@ -56,7 +56,7 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query BlogPostBySlug($slug: String! = "/new-blog/") {
+  query BlogPostBySlug($slug: String! = "/landing-1/") {
   site {
     siteMetadata {
       title
