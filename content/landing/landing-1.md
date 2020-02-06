@@ -12,6 +12,6 @@ testimonialText: |-
 
 
     Karen won £30,000 in our Street Prize
-charities: assets/pdsa.jpeg
+charities: assets/warchild.jpeg
 ---
 
