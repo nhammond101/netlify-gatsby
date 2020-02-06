@@ -7,6 +7,8 @@ const Footer = styled.footer`
   text-align: center;
   margin: 24px;
   font-size: 10px;
+  background: #eee;
+  margin: 0;
 `
 
 export default ({ data }) => {
@@ -38,6 +40,14 @@ export default ({ data }) => {
       <section className={Style.bottomHero}>
         <img src={'/' + page?.bottomHero} alt='Bottom Image'/>
       </section>
+
+      {/*<section className={Style.charities}>*/}
+      {/*  <div >&nbsp;</div>*/}
+      {/*  <div >&nbsp;</div>*/}
+      {/*  <img src={'/' + page?.charities} alt='Sponsoring local charities (War child)'/>*/}
+      {/*  <div >&nbsp;</div>*/}
+      {/*  <div >&nbsp;</div>*/}
+      {/*</section>*/}
 
       <Footer>
         <p>*£10 to be entered into all draws, paid monthly in advance. Winning postcodes for March's draws announced daily from 7 Mar to 3 Apr. Estimated max possible ticket prize in the March millions draw is £196,000, which is 10% of estimated draw proceeds.</p>

@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d58d3afe-2f9a-445b-8d4c-25a6b15f23cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blog/landing-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/landing/landing-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blog/landing-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/landing/landing-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/landing-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/landing-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/landing-page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/landing-page.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,38 +90,42 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: Rename blog to landing" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: Rename blog to landing" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="450" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580856120583">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580856120583" />
-    <state x="301" y="55" key="CommitChangelistDialog2" timestamp="1580938964052">
+    <state x="301" y="55" key="CommitChangelistDialog2" timestamp="1580943322929">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580938964052" />
-    <state width="1398" height="306" key="GridCell.Tab.0.bottom" timestamp="1580943279198">
+    <state x="301" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580943322929" />
+    <state width="1398" height="306" key="GridCell.Tab.0.bottom" timestamp="1580972555754">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580857044564" />
-    <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580943279198" />
-    <state width="1398" height="306" key="GridCell.Tab.0.center" timestamp="1580943279197">
+    <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580972555754" />
+    <state width="1398" height="306" key="GridCell.Tab.0.center" timestamp="1580972555753">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580857044562" />
-    <state width="1398" height="306" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580943279197" />
-    <state width="1398" height="306" key="GridCell.Tab.0.left" timestamp="1580943279197">
+    <state width="1398" height="306" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580972555753" />
+    <state width="1398" height="306" key="GridCell.Tab.0.left" timestamp="1580972555751">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580857044560" />
-    <state width="1398" height="306" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580943279197" />
-    <state width="1398" height="306" key="GridCell.Tab.0.right" timestamp="1580943279198">
+    <state width="1398" height="306" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580972555751" />
+    <state width="1398" height="306" key="GridCell.Tab.0.right" timestamp="1580972555753">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580857044562" />
-    <state width="1398" height="306" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580943279198" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1580941744580">
+    <state width="1398" height="306" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580972555753" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1580943335951">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580941744580" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580943335951" />
   </component>
 </project>

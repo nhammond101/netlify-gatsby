@@ -43,6 +43,22 @@
     height: auto;
 }
 
+.charities {
+    background: #eeeeee;
+    display: flex;
+    padding: 1em;
+}
+
+.charities div {
+    flex: 1;
+    padding: 1rem;
+}
+
+.charities img {
+    width: 100px;
+    height: auto;
+}
+
 
 .bottom-hero img {
     width: auto;
